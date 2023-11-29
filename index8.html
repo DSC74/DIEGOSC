@@ -26,16 +26,16 @@
 			<form>
 
 				<label for="name">Nombre</label>
-				<input type="text" name="nombre">
+				<input type="text" name="name" id="name" placeholder="Nombre" required minlength="3">
 
 				<label for="apellido">Apellido</label>
-				<input type="text" name="apellido"> <br><br>
+				<input type="text" id="apellido" placeholder="Apellido"> <br><br>
 
 				<label for="email">Email</label>
-				<input type="email" name="email"> <br><br>
+				<input type="email" id="email" placeholder="Email" required> <br><br>
 
 				<label for="password">Contraseña</label>
-				<input type="password" name="password"><br>
+				<input type="password" id="password" placeholder="Comtraseña" minlength="8" maxlength="12"><br>
 
 				<p> Tipo de vía: &nbsp; &nbsp; 
 
@@ -53,13 +53,13 @@
 
 
 				<label for="nombre">Nombre de la vía</label>
-				<input type="text" name="nomnre">
+				<input type="text" id="nomnre" placeholder="Nombre de calle">
 
 				<label for="nimero">Número</label>
-				<input type="number" name="numero">
+				<input type="number" id="numero" placeholder="Número">
 
 				<label for="cpostal">Código postal</label>
-				<input type="number" name="cpostal">
+				<input type="number" id="cpostal" placeholder="Código postal" pattern="[0-9]{5}">
 
 				<p> Sexo: &nbsp; &nbsp; 
 
@@ -69,10 +69,13 @@
 				<label for="mujer">Mujer</label>
 				<input type="radio" name="mujer">
 
-				</p> 
+				</p>
+
+				<label for="edad">Edad</label>
+				<input type="number" name="edad" min="18" placeholder="minimo 18 años" ><br><br> 
 
 				<label for="enviar">Enviar</label>
-				<input type="submit" name="enviar">
+				<input type="submit" id="enviar">
 
 
 
