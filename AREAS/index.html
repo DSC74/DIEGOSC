@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="es">
+	<head>
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Diego">
+		<meta name="description" content="web practica javascript">
+		<meta name="keywords" content="javascript, web, práctica">
+		<title>Calculadora de areas</title>
+	</head>
+
+	<body>
+
+		<header>
+
+			<h1>CALCULADORA DE AREAS</h1>
+
+			
+			
+		</header>
+
+		<main>
+			<script src="js/script.js" type="text/javascript"></script>
+
+			<h2> CUADRADO </h2>
+
+			<form>
+				<input  type="text" id="lado" placeholder="lado"/> 
+				<button type="button" onclick="areaCuadrado()"> Calcular </button>
+				<input  type="text" id="resultado1" placeholder="Resultado" disabled/> 
+			</form>
+			
+
+			<h2> RECTÁNGULO </h2>
+
+			<form>
+				<input  type="text" id="lado1" placeholder="lado1"/> 
+				<input  type="text" id="lado2" placeholder="lado2"/> 
+				<button type="button" onclick="areaRectangulo()"> Calcular </button>
+				<input  type="text" id="resultado2" placeholder="Resultado" disabled/>
+			</form>
+
+			<h2> CÍRCULO </h2>
+
+			<form>
+				<input  type="text" id="radio" placeholder="radio"/>
+				<button type="button" onclick="areaCirculo()"> Calcular </button>
+				<input  type="text" id="resultado3" placeholder="Resultado" disabled/>
+			</form>
+
+			<h2> TRIÁNGULO </h2>
+
+			<form>
+				<input  type="text" id="base" placeholder="base"/> 
+				<input  type="text" id="altura" placeholder="altura"/> 
+				<button type="button" onclick="areaTriangulo()"> Calcular </button>
+				<input  type="text" id="resultado4" placeholder="Resultado" disabled/> 
+			</form> 
+
+
+				
+
+
+		</main>	
+
+		<footer>
+			
+				<h4> </h4>
+		</footer>
+
+	</body>
+
+
+
+
+</html>
